@@ -9,9 +9,13 @@ public class SqlDemo1 {
         String dBurl = "jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12676917";
         String username = "sql12676917";
         String password = "UjMNKciRkP";
+        // Declaration of Connection object to establish a connection to the database
         Connection connection = null;
+        // Declaration of Statement object to execute SQL queries against the database
         Statement statement = null;
+        // Declaration of ResultSet object to store the result set obtained from a database query
         ResultSet resultSet = null;
+
 
         try {
             // Establishing the connection
