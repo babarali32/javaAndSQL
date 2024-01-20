@@ -12,6 +12,7 @@ public class Demo2 {
         try {
             // Establishing the connection
             connection = DriverManager.getConnection(dBurl, username, password);
+            System.out.println(connection);
 
             // Creating a statement
             statement = connection.createStatement();
