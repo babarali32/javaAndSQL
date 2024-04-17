@@ -30,7 +30,7 @@ public class Demo2 {
                  String  catalogName  = resultSetMetaData.getCatalogName(i);
                  String schemaName  = resultSetMetaData.getSchemaName(i);
                 // You can print or use the column information as needed
-               System.out.println( "Column Name: "+columnName);
+                System.out.println( "Column Name: "+columnName);
                 System.out.println("Column Type: " + columnType);
                 System.out.println("Column Size: " + columnSize);
                 System.out.println("Catalog Name: " + catalogName);

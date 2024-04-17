@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-
 public class sqlDemo3 {
     public static void main(String[] args) {
         String dBurl = "jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12676917";
